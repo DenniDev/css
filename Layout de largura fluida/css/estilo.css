@@ -6,15 +6,23 @@ body{
     width: 85%;
     margin: 0 auto;
     background: #fff;
-    min-width: 720px;
+    min-width: 820px;
     max-width: 1280px;
 }
 #marca {
-    height: 100%;
-    background: #9E9E9E;
+    width: 100%;
+    height: 200px;
+    background: #225992 url(../imagens/cabecalho2.jpg) no-repeat center;
     text-align: center;
-    line-height: 100px;
+    line-height: 200px;
 }
+
+img.img-noticia {
+    width: 94%;
+    padding: 2%;
+    max-width: 600px; /* O Limite máximo que a imagem pode chegar */
+}
+
 #conteudo {
     width: 74%;
     float: right;
